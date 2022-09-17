@@ -6,7 +6,7 @@ import { IArgs } from '../../Types'
     category: 'dev',
     cooldown: 5,
     usage: 'ban --action=[ban/unban] [tag/quote users]',
-    exp: 15
+    exp: 10000
 })
 export default class extends BaseCommand {
     public override execute = async (M: Message, { flags }: IArgs): Promise<void> => {
